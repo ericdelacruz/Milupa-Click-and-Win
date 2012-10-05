@@ -1,0 +1,22 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/**
+ * --- Facebook Ignited ---
+ * 
+ * fb_appid		is the app id you recieved from dev panel
+ * fb_secret	is the secret you recieved from dev panel
+ * fb_canvas 	the value you put in 'Canvas Page' field in dev panel or the address of your app.
+ * fb_apptype	set to either 'iframe' or 'connect' based on what platform your app is
+ * 				is running on.
+ * fb_auth		is the default authentications, '' is basic authentication
+ */
+$config['domain']		= 'tbgapps.com';
+$config['uri_base']		= 'tetley/plucker';
+$config['fb_appid']		= '398219793572338';
+$config['fb_secret']	= 'eb23d64b78a34d4a6240186d4ae74c94';
+$config['fb_page'] = 'tbgview';
+$config['fb_canvas']	= 'tetleyplucker';
+$config['fb_tab_url'] = 'http://facebook.com/tbgview/app_'.$config['fb_appid'];
+$config['fb_post_url'] = 'http://facebook.com/tbgview/app_'.$config['fb_appid'];
+$config['fb_tab_redirect']	= 'http://'.$config['domain'].'/'.$config['uri_base'].'/redirect';
+$config['fb_apptype']	= 'iframe';
+$config['fb_auth']		= '';
